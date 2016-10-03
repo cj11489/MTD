@@ -92,12 +92,13 @@ header p {
 .welcomeContent h1 {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #FFF;
-	font-size: 3em;
+	font-size: 4em;
+	font-style: italic;
 	padding-bottom: 2%;
 }
 
 .welcomeContent p {
-	color: #FFF;
+	color: #333;
 	font-size: 1.25em
 }
 
@@ -106,34 +107,34 @@ header p {
 	margin-bottom: 1%;
 }
 
-.middleContent,.bottomContent {
+.content-B,.content-C,.content-D,.content-E, .content-F {
 	width: 100%;
 	float: left;
 	margin-left: 0%;
-	margin-bottom: 1%;
+	margin-bottom: 2%;
 	padding: 2% 3% 5% 3%;
 }
 
-.middleContent h2 {
+.content-B h2, .content-D h2, .content-F h2 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 3em;
 	color: #ea8b00;
 	margin-bottom: 2%;
 }
 
-.bottomContent {
+.content-C {
 	background-color: #337ab7;
 	color: #FFF;
 }
 
-.bottomContent h2 {
+.content-C h2 {
 	color: #ea8b00;
 	font-size: 3.3em;
 	font-family: 'Josefin Sans', sans-serif;
 	margin-bottom: 5%;
 }
 
-.bottomContent p {
+.content-C p {
 	margin-bottom: 5%;
 }
 
@@ -151,8 +152,61 @@ a.btn.btn-primary {
 	opacity: 0.8;
 }
 
+a#sticky:hover {
+	text-decoration: none
+}
+
+img#baking {
+	margin-top: 1%;
+	margin: 0 auto;
+}
+
+.content-E {
+	background-color: #ea8b00;
+}
+
+.content-E h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3em;
+	color: #FFF;
+	margin-bottom: 2%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFF;
+}
+
 .glyphicon-earphone:hover {
 	color: #ea8b00;
+}
+
+#map {
+	width: 90%;
+	height: 300px;
+	float: right;
+	margin-right: 5%;
+}
+
+.contact-main-text p {
+	font-size: 1.25em;
+	padding-bottom: 20px;
 }
 
 .mainFooter {
@@ -193,7 +247,7 @@ a.btn.btn-primary {
 	}
 
 	.main-header nav {
-		height: 350px;
+		height: 250px;
 	}
 
 	.main-header nav ul li {
@@ -244,7 +298,7 @@ a.btn.btn-primary {
 
 @media only screen and (min-width: 150px) and (max-width: 555px) {
 
-	.bottomContent {
+	.content-C {
 		padding: 2% 5% 7% 5%;
 	}
 

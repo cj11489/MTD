@@ -10,6 +10,7 @@
 
 		<!-- Latest compiled and minified Bootstrap JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="js/scripts.js"></script>
 
 		<!--Other CSS files-->
 	    <link rel="stylesheet" href="css/index.css" type="text/css">
@@ -29,12 +30,10 @@
 				<div class="container-fluid">
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
-						<li><a href="#">4 Track</a></li>
-						<li><a href="#">8 Track</a></li>
-						<li><a href="#">16 Track</a></li>
-						<li><a href="#">24 Track</a></li>
-						<li><a href="#">Transfer Process</a></li>
-						<li><a href="#">Contact Us</a></li>						
+						<li><a href="#about">About</a></li>
+						<li><a href="#history">History of Multi Track</a></li>
+						<li><a href="#pricing">Pricing</a></li>
+						<li><a href="#contact">Contact Us</a></li>						
 					</ul>
 				</div>
 			</nav>
@@ -54,13 +53,12 @@
 
         <div class="introContent">
         	<article class="welcomeContent">
-        		<h1>Welcome!</h1>
-        		<p>Sed id magna auctor, condimentum dui eu, dapibus nisi. In maximus sollicitudin lorem, ac sollicitudin quam dapibus a. Fusce iaculis, nisi non pulvinar sollicitudin, augue purus efficitur lacus, ut convallis magna urna ut mi.</p>
-        		<p>Curabitur sit amet tortor maximus, dapibus eros id, laoreet odio. Aliquam elementum erat nec ligula aliquet, vel interdum turpis tempus. </p>
+        		<h1>Welcome to MTD</h1>
+        		<p>If you have any multi-track tapes that you want digitally restored and transferred to CD or WAV, then give us a call!</p>
         	</article>
         </div>
 
-		<div class="mainContent">
+		<div class="content-A">
 			<div class="content">	
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -87,28 +85,114 @@
 			</div>
 		</div>
 
-		<div class="middleContent">
+		<div class="content-B" id="about">
 			<article class="article">
-				<h2>History of Multi Track</h2>
-				<p>Text to go here - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-				<ul>
-					<li>Excepteur sint occaecat cupidatat </li>
-					<li>Excepteur sint occaecat cupidatat </li>
-					<li>Excepteur sint occaecat cupidatat </li>
-					<li>Excepteur sint occaecat cupidatat </li>
-				</ul>
-				<p>Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaeca</p>
+				<h2>About MTD</h2>
+				<p>MTD is a fully equipped multitrack studio based in Essex, UK dedicated to the transfer / digitisation of multitrack tapes, enabling the client to produce mix-downs using their own DAW.</p>
+				<p>Transfers to .wav files are routinely performed at 24 bit/48 or 96 kHz, onto client-supplied memory stick or HDD. Data DVDs can be supplied if preferred.</p></br>
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<h5>Formats</h5>
+						<ul>
+							<li>1/4 inch - 4 track (TEAC A-3440) - optional dbx type I NR</li>
+							<li>1/4 inch - 8-track (Fostex R8)  - optional Dolby C NR</li>
+							<li>1/2 inch - 8 track (Tascam TSR-8) - optional dbx type I NR</li>
+							<li>1/2 inch - 16 track (Fostex E-16) - optional Dolby C NR</li>
+							<li>1 inch - 24 track (Tascam MSR 24) - optional dbx type I NR</li>
+							<li>1 inch - 24 track (Fostex G24s) - optional Dolby S NR</li>
+							<li>2 inch - 24 track (Otari MTR 90-II) </li>
+						</ul>
+						<p>In addition, Dolby A, B and dbx type II decoders are available if required.</p></br>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<img src="img/baking.jpg" id="baking" class="thumbnail">
+					</div>
+				</div>
+
+				<h5>SSS and Tape baking:</h5>
+				<p>Due to the likelihood of <a id="sticky" data-toggle="tooltip" data-placement="top" title="Studio tapes are usually affected to some degree by Sticky Shed, a noticeable ‘squealing’ sound as the tape is played, often accompanied by excessive wow and flutter and the shedding of sticky iron oxide particles on the record / playback heads and pinch roller.
+
+The most common offenders are Ampex 406/407, 456/457, 499, and the ‘Grand Master’ consumer/audiophile back-coated tapes.Some ‘pro’ tapes (manufactured by Scotch/3M) can also be afflicted, including 206/207, 226/227, 808, and 986 as well as audiophile tapes such as “Classic” and “Master-XS”.
+
+SSS is caused by moisture-induced breakdown of the binder holding the iron oxide particles to the base tape, due to the unpredictable nature of the problem, ALL studio tapes are baked prior to transfer without exception. Baking tapes at an accurately controlled 55 degrees C for 24 hours drives out the moisture in a slow and controlled way, allowing the retrieval and transfer of the recorded content to digital.">Sticky Shed Syndrome</a>, and the dire consequences of playing a tape in this condition, all tapes are baked in a thermostatically controlled oven at 55 degrees C for 24 hours, before being played.</p> 
 			</article>
 		</div>
-		<div class="bottomContent">
+		<div class="content-C">
 			<article class="article">
 				<h2>Contact Us</h2>
 				<p>If you have any multi track reels that need transferring or have a question, please contact us.</p>
 				<a class="btn btn-primary btn-lg" href="#" role="button" id="contact-button"><span class="glyphicon glyphicon-earphone"></span></a>
 			</article>
 		</div>
+		<div class="content-D" id="history">
+			<article class="article">
+				<h2>History of Multi Track</h2>
+				<p>Simple reel-to-reel tape recording was made possible with the invention of the German-English 'Blattnerphone' in the late 1920s. This machine, which used steel tape as the recording medium was superseded by the improved German 'Magnetophons' of the 1930s. Whereas these earliest machines were 'mono' recorders, two-track (stereo) devices were later developed giving a 'life-like' stereo image by means of separate left and right channels.</p>
+
+				<p>This idea of having separate 'tracks' on the same reel of tape was developed further, and in 1955 the Ampex company released the first example of a Multitrack recorder comprising 8 discrete recordable segments or 'tracks' spread over a one inch wide tape. Multiple sounds recorded in this way could be played back as a single, perfectly synchronised cohesive track.</p>
+
+				<p>The flexibility of the Multitrack process allowed for the discrete recording of all of the instruments and vocals for a piece of music. Prior to this, all the singers and instrumentalists of a musical piece had to perform together, and this 'one-take' process did not allow for any corrections of errors that may have occurred. 
+				Furthermore,  Multitracking gave the audio engineer the freedom to alter the sound of each individual track, by means of a mixing desk, controlling such elements as volume levels, tone and reverb. It also simplified the processes of over-dubbing and vocal/instrumental harmonisation to create different layers and effects, which have become commonplace in the recording industry.</p>
+
+				<p>In the decades that followed, the range of multitrack formats grew to provide 1/4 inch, 1/2 inch, 1 inch and 2 inch tapes with tracks numbering from 4 to 24.</p>
+			</article>
+		</div>
+		<div class="content-E" id="pricing">
+			<article class="article">
+				<h2>Price List</h2>
+				<table>
+					<tr>
+						<td>1/4 inch - 4 track</td>
+						<td>£50</td>
+					</tr>
+					<tr>
+						<td>1/4 inch - 8-track</td>
+						<td>£60</td>
+					</tr>
+					<tr>
+						<td>1/2 inch - 8 track</td>
+						<td>£60</td>
+					</tr>
+					<tr>
+						<td>1/2 inch - 16 track</td>
+						<td>£75</td>
+					</tr>
+					<tr>
+						<td>1 inch - 24 track</td>
+						<td>£90</td>
+					</tr>
+					<tr>
+						<td>2 inch - 24 track</td>
+						<td>£100</td>
+					</tr>
+				</table>
+			</article>
+		</div>
+		<div class="content-F" id="contact">
+			<article class="article">
+				<h2>Contact us</h2>
+    			<div class="row">
+	                <div class="col-sm-12 col-md-6 col-lg-6">
+	                  <div class="contact-main-text">
+	                  	<p>If you have a tape that you need transferring or simply have a question, please give us a call</p>
+	                    <p><span class="glyphicon glyphicon-earphone"></span>&nbsp; +44(0)1234 352411</p>
+	                    <p><span class="glyphicon glyphicon-envelope"></span>&nbsp; <a href="mailto:MTD@info.com">MTD@info.com</a></p>
+	                  </div>
+	                </div>
+	                <div class="col-md-6 col-lg-6 col-sm-12">
+	                	<div id="map"></div>
+	                </div>
+	            </div>
+			</article>
+		</div>
 	</body>
+
+	<!--js googlemaps api key-->
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script async defer
+    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7qKERZIYN9Lfg54HdM2Gka5nO34Y_3SQ&callback=initMap">
+    </script>
 
 	<footer class="mainFooter">
 		<p>MTD - Multi Track Digitisation Ltd &copy; 2016</p>

@@ -64,17 +64,17 @@ header p {
 }
 
 #img-1.image-wrapper {
-	background-image: url("../img/reel-to-reel-1.jpg");
+	background-image: url("../img/Optimized-reel-to-reel-1.jpg");
 	background-size: cover;
 }
 
 #img-2.image-wrapper {
-	background-image: url("../img/reel-to-reel-2.jpg");		
+	background-image: url("../img/Optimized-reel-to-reel-2.jpg");		
 	background-size: cover;
 }
 
 #img-3.image-wrapper {
-	background-image: url("../img/record-player.jpg");
+	background-image: url("../img/Optimized-record-player.jpg");
 	background-size: cover;
 }
 
@@ -93,7 +93,6 @@ header p {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #FFF;
 	font-size: 4em;
-	font-style: italic;
 	padding-bottom: 2%;
 }
 
@@ -197,6 +196,10 @@ tr:nth-child(odd) {
 	color: #ea8b00;
 }
 
+.map-div {
+	height: 300px;
+}
+
 #map {
 	width: 90%;
 	height: 300px;
@@ -220,6 +223,13 @@ tr:nth-child(odd) {
 
 .mainFooter p {
 	color: #FFF;
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1880px ) {
+
+	.body {
+		width: 75%;
+	}
 }
 
 @media only screen and (min-width: 150px) and (max-width: 1230px ) {
@@ -271,6 +281,18 @@ tr:nth-child(odd) {
 
 }
 
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+
+	.navbar-default .navbar-nav>.active>a {
+		width: 120.5%;
+	}
+
+	.navbar-default .navbar-nav>li>a {
+		width: 120.5%;
+	}
+
+}
+
 @media only screen and (min-width: 150px) and (max-width: 768px) {
 
 	.image-wrapper.welcomeImage {
@@ -294,6 +316,13 @@ tr:nth-child(odd) {
 		padding-bottom: 15px;
 	}
 
+	#img-1.image-wrapper {
+		display: none;
+	}
+
+	#img-2.image-wrapper {
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 150px) and (max-width: 555px) {
@@ -304,11 +333,37 @@ tr:nth-child(odd) {
 
 }
 
+@media only screen and (min-width: 150px) and (max-width: 497px) {
+
+	.welcomeContent h1 {
+		font-size: 3em;
+	}
+
+	.welcomeContent p {
+		font-size: 1em
+	}
+
+}
+
 @media only screen and (min-width: 150px) and (max-width: 440px) {
 
 	.image-wrapper.welcomeImage {
 		height: 300px;
 		width: 300px;
+	}
+
+}
+
+@media only screen and (min-width: 150px) and (max-width: 399px) {
+
+	img#baking.thumbnail {
+		width: 250px;
+		margin-bottom: 5%;
+	}
+
+	#map {
+		width: 100%;
+		margin-right: 0%;
 	}
 
 }
